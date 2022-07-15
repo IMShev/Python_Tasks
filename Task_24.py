@@ -20,8 +20,7 @@ for i in range(num):
     position_list.append(i)
 
 
-find_list = input(
-    f'Укажите интересующие позиции элементов через пробел {position_list}:  ').split()
+find_list = input(f'Укажите интересующие позиции элементов через пробел {position_list}:  ').split()
 for i in range(len(find_list)):
     find_list[i] = int(find_list[i])
 
