@@ -5,7 +5,7 @@
 number = int(input("Введите число: "))
 
 
-def factorials(n: int):
+def factorial(n: int):
     fact = 1
     a = []
     for i in range(1, n+1):
@@ -15,4 +15,4 @@ def factorials(n: int):
     return a
 
 
-print(factorials(number))
+print(factorial(number))
